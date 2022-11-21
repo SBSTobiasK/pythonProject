@@ -1,2 +1,13 @@
-list1 = [i for i in range(1, 100, 2)]
-print(list1)
+import random
+
+list = [i**2 for i in range(1, 21)]
+
+print(list)
+
+random.shuffle(list)
+
+print(list)
+
+list.sort()
+
+print(list)
