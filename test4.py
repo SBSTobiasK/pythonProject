@@ -1,0 +1,1 @@
+list1 = [x if x%3 ==0 else "" for x in range(1,101)]
