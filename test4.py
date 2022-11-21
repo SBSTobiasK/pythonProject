@@ -1,1 +1,2 @@
-list1 = [x if x%3 ==0 else "" for x in range(1,101)]
+list1 = [x for x in range(1,101) if x%3 == 0]
+print(list1)
